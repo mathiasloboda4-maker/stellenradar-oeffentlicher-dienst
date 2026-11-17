@@ -25,6 +25,43 @@ Was er gegenüber einem einfachen Crawler mehr kann:
 Deutschsprachig durchgehend: Oberfläche, Code, Kommentare, Dokumentation.
 Läuft auf einem Windows-Rechner, ohne Server, ohne Konto, ohne Cloud.
 
+## So sieht das aus
+
+![Dashboard mit Fristen-Ampel](bilder/01-dashboard.png)
+
+Das Dashboard beantwortet die Frage, die man morgens hat: *Was ist dringend?*
+Die Ampel zählt nur neue und vorgemerkte Stellen, ein Klick öffnet die Liste.
+
+<table>
+<tr>
+<td width="50%"><img src="bilder/02-liste-neu.png" alt="Trefferliste"></td>
+<td width="50%"><img src="bilder/03-favoriten.png" alt="Favorit mit Briefing"></td>
+</tr>
+<tr>
+<td><b>Trefferliste</b> — sortiert nach Passung. Jede Stelle einmal ansehen:
+vormerken oder verwerfen. Verworfene kommen nie wieder, samt ihrer Dokumente.</td>
+<td><b>Favoriten</b> — das Briefing fürs Gespräch. Die ersten drei Abschnitte
+kommen aus der Datenbank und stimmen; den Rest schreibt ein lokales
+KI-Modell, strikt an Ausschreibungstext und Profil gebunden.</td>
+</tr>
+<tr>
+<td width="50%"><img src="bilder/04-berufsfelder.png" alt="Berufsfelder"></td>
+<td width="50%"><img src="bilder/05-gewichtung.png" alt="Gewichtung"></td>
+</tr>
+<tr>
+<td><b>Berufsfelder</b> — die Stichworte entscheiden, was überhaupt gefunden
+wird. Daneben die eigenen Kompetenzen, die ins Briefing eingehen. Beides ohne
+eine Zeile Code änderbar.</td>
+<td><b>Gewichtung</b> — was eine Stelle „wert" ist. Vier Schnellvorlagen von
+„Nähe ist wichtig" bis „Bezahlung ist wichtig", dazu jeder Wert einzeln.
+Nach dem Speichern wird der ganze Bestand neu bewertet.</td>
+</tr>
+</table>
+
+> Alle Bilder zeigen **Beispieldaten**: erfundene Ausschreibungen und ein
+> Platzhalter-Profil. Erzeugt mit `screenshots_erzeugen.py`, das dafür eine
+> Wegwerf-Datenbank anlegt und echte Daten nicht anfasst.
+
 ## Wegweiser
 
 | Du willst … | Lies |
@@ -34,6 +71,7 @@ Läuft auf einem Windows-Rechner, ohne Server, ohne Konto, ohne Cloud.
 | daran entwickeln | [`UEBERGABE.md`](UEBERGABE.md) — Module, Datenmodell, Stolperfallen |
 | etwas beitragen | [`CONTRIBUTING.md`](CONTRIBUTING.md) |
 | wissen, was mitbenutzt wird | [`ABHAENGIGKEITEN.md`](ABHAENGIGKEITEN.md) — alles MIT-verträglich |
+| die Bilder neu erzeugen | `screenshots_erzeugen.py` — mit Beispieldaten, rührt nichts Echtes an |
 
 ## Beim ersten Start: das eigene Profil eintragen
 
