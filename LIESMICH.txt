@@ -1,0 +1,113 @@
+===============================================================================
+  STELLENRADAR
+  Stellensuche im öffentlichen Dienst und in der Public-Sector-Beratung
+  Berlin, Potsdam und Umgebung
+===============================================================================
+
+
+SO FÄNGST DU AN
+---------------
+
+  1.  Diesen ganzen Ordner auf den Rechner kopieren — am besten unter
+      "Dokumente". Nicht aus einer ZIP-Vorschau heraus arbeiten, erst
+      entpacken.
+
+  2.  Doppelklick auf     INSTALLIEREN.bat
+
+      Das Fenster richtet alles ein und sagt bei jedem Schritt, was es tut.
+      Es dauert 15 bis 40 Minuten, je nach Internetverbindung.
+      Administratorrechte sind nicht nötig.
+
+      Falls Windows warnt ("Der Computer wurde geschützt"):
+      auf "Weitere Informationen" klicken, dann "Trotzdem ausführen".
+      Das kommt bei jeder heruntergeladenen Datei.
+
+  3.  Danach liegt das Symbol   Stellenradar   auf dem Desktop.
+      Doppelklick — fertig.
+
+
+DER ERSTE SUCHLAUF
+------------------
+
+  Oben rechts auf  "Suchlauf starten".
+
+  Stelle beim ERSTEN Mal im Zahnrad (ganz oben rechts) die
+  "Interamt-Nachladerunden" auf 85. Dann wird der gesamte Bestand
+  durchgesehen statt nur der neueste Teil. Das dauert etwa eine Stunde,
+  weil zu jeder gefundenen Stelle die Seite als PDF gesichert wird.
+
+  Später genügen die voreingestellten 25 Runden — neue Ausschreibungen
+  stehen in den Portalen immer oben.
+
+
+WIE DU DAMIT ARBEITEST
+----------------------
+
+  DASHBOARD      Ganz oben steht, was ansteht: Fristen, die ablaufen, und
+                 Wiedervorlagen, die fällig sind.
+
+  NEU            Jede Stelle einmal ansehen und entscheiden:
+                 ⭐ Vormerken  oder  🗑 Verwerfen.
+                 Verworfene kommen nie wieder — das hält die Liste kurz.
+
+  FAVORITEN      Stellen, die wirklich infrage kommen, bekommen in der Liste
+                 einen Stern. Hier steht dann alles zusammen: Eckdaten,
+                 Ansprechpartner, deine passenden Kompetenzen. Mit
+                 "Mit KI aufbereiten" kommt dazu, was die Stelle verlangt,
+                 wo du passt, wo es hakt und was du im Gespräch fragen
+                 kannst.
+
+  BEWORBEN       Mit "📅 Verlauf" hältst du fest, wann du dich beworben
+                 hast, was zurückkam und wann du nachfassen willst.
+
+  GEWICHTUNG     Hier bestimmst du, was zählt: kurzer Weg oder gute
+                 Bezahlung. Vier Knöpfe stellen das in einem Zug um.
+
+  BERUFSFELDER   Die Stichworte, nach denen gesucht wird, und deine
+                 Kompetenzen. Nach einer Weiterbildung hier ergänzen.
+
+  ARCHIV         Zu jeder Stelle wird die Seite als PDF gesichert. Portale
+                 nehmen Ausschreibungen nach Fristende offline — dann ist
+                 die Kopie das Einzige, was bleibt.
+
+
+WENN ETWAS NICHT KLAPPT
+-----------------------
+
+  Doppelklick auf   PRUEFEN.bat
+  Das sagt in Klartext, was da ist und was fehlt.
+
+  Das Programm startet nicht?
+      Dann steht der Grund in der Datei  fehler.log  im selben Ordner.
+
+  Keine KI-Aufbereitung in den Favoriten?
+      Doppelklick auf  KI_NACHINSTALLIEREN.bat
+      Das Programm funktioniert auch ohne — die Favoriten zeigen dann die
+      Eckdaten, nur eben ohne die Einschätzung.
+
+  Einzelne Portale liefern nichts?
+      Doppelklick auf  BROWSER_NACHINSTALLIEREN.bat
+
+
+WAS DU WISSEN SOLLTEST
+----------------------
+
+  · Die Punkte sind eine Sortierhilfe, kein Urteil. Sie kennen weder den
+    Zuschnitt der Stelle noch das Team.
+
+  · Alle Angaben stammen aus den Ausschreibungen und sind ohne Gewähr.
+    Vor jeder Bewerbung auf der Seite des Arbeitgebers nachsehen,
+    besonders die Frist.
+
+  · Was die KI schreibt, ist ein Entwurf. Der Abschnitt "Zum Arbeitgeber"
+    kommt aus ihrem Allgemeinwissen und kann veraltet sein — vor einem
+    Gespräch nachprüfen.
+
+  · Die KI läuft auf deinem Rechner. Es verlässt nichts das Gerät.
+
+  · Beim Start wird täglich eine Kopie der Datenbank angelegt
+    (Ordner "sicherungen"). Deine Notizen und Entscheidungen sind
+    Handarbeit und stecken nur dort.
+
+
+Ausführlich steht alles in README.md.

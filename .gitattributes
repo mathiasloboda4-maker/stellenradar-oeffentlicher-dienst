@@ -1,0 +1,19 @@
+# Textdateien im Repository einheitlich mit LF, im Arbeitsordner nach Plattform.
+* text=auto
+
+# Windows-Skripte brauchen CRLF, sonst stolpern cmd.exe und PowerShell.
+*.bat   text eol=crlf
+*.ps1   text eol=crlf
+*.cmd   text eol=crlf
+
+# Python, Markdown und Konfiguration: LF genügt überall.
+*.py    text eol=lf
+*.md    text eol=lf
+*.json  text eol=lf
+*.txt   text eol=lf
+
+# Binärdateien nicht anfassen.
+*.ico   binary
+*.png   binary
+*.pdf   binary
+*.exe   binary

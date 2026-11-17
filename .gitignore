@@ -1,0 +1,58 @@
+# ===================================================================
+#  PERSÖNLICHE DATEN — gehören niemals in ein Repository
+# ===================================================================
+# Diese drei Dateien enthalten Lebenslauf, Kompetenzen und die eigene
+# Gewichtung. Sie entstehen beim ersten Start bzw. beim Speichern im
+# Fenster. Der Code kommt ohne sie aus: in konfiguration.py liegt ein
+# neutrales Beispiel.
+profil.json
+berufsfelder.json
+gewichtung.json
+
+# Die Datenbank mit der eigenen Triage: welche Stelle vorgemerkt,
+# verworfen, beworben ist, dazu Notizen und der Bewerbungsverlauf.
+stellenradar.db
+stellenradar.db-wal
+stellenradar.db-shm
+sicherungen/
+
+# Gesicherte Ausschreibungsseiten, erzeugte Steckbriefe und Dossiers,
+# erzeugte Anschreiben.
+archiv/
+steckbriefe/
+dossiers/
+anschreiben/
+
+# ===================================================================
+#  Laufzeit und Umgebung
+# ===================================================================
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.log
+
+# ===================================================================
+#  Berichte der Wartungswerkzeuge — Momentaufnahmen, kein Quellcode
+# ===================================================================
+pruefbericht_arbeitgeber.json
+gefundene_karriereseiten.json
+portalbericht.json
+
+# ===================================================================
+#  Fremde Binärpakete
+# ===================================================================
+# Der Python-Installer wird nicht mitgeliefert: fremdes Binärpaket,
+# rund 32 MB, veraltet schnell. INSTALLIEREN.bat verweist auf
+# python.org, wenn er fehlt.
+_setup/python-*.exe
+
+# ===================================================================
+#  Betriebssystem und Editoren
+# ===================================================================
+Thumbs.db
+desktop.ini
+.DS_Store
+.idea/
+.vscode/
+*.swp

@@ -1,0 +1,9 @@
+# Abrufschicht fuer alle Portale, inkl. Browser-Modus (BSD-3-Clause)
+scrapling[fetchers]>=0.5.1
+
+# PDF-Metadaten nachtraeglich setzen (BSD-3-Clause)
+pypdf
+
+# Bewusst NICHT pymupdf: steht unter AGPL-3.0 und wuerde das ganze
+# Programm darunter zwingen. Es wurde ohnehin nur beim Entwickeln zum
+# Nachmessen der PDFs benutzt, nicht vom Programm selbst.
