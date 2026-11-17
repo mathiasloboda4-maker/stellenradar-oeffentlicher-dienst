@@ -33,6 +33,7 @@ Läuft auf einem Windows-Rechner, ohne Server, ohne Konto, ohne Cloud.
 | wissen, **warum** es so gebaut ist | [`KONZEPT.md`](KONZEPT.md) |
 | daran entwickeln | [`UEBERGABE.md`](UEBERGABE.md) — Module, Datenmodell, Stolperfallen |
 | etwas beitragen | [`CONTRIBUTING.md`](CONTRIBUTING.md) |
+| wissen, was mitbenutzt wird | [`ABHAENGIGKEITEN.md`](ABHAENGIGKEITEN.md) — alles MIT-verträglich |
 
 ## Beim ersten Start: das eigene Profil eintragen
 

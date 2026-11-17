@@ -141,4 +141,5 @@ MIT-Lizenz veröffentlicht wird (siehe `LICENSE`).
 
 Bitte **keine Abhängigkeiten unter Copyleft-Lizenzen** hinzufügen. `pymupdf`
 wurde aus genau diesem Grund entfernt: Es steht unter AGPL-3.0 und hätte das
-ganze Programm darunter gezwungen.
+ganze Programm darunter gezwungen. Der aktuelle Stand steht in
+[`ABHAENGIGKEITEN.md`](ABHAENGIGKEITEN.md) — bitte dort mitpflegen.

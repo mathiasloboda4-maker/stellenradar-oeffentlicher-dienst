@@ -19,24 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
--------------------------------------------------------------------------------
-
-Verwendete Bibliotheken und ihre Lizenzen:
-
-  Scrapling  BSD 3-Clause   https://github.com/D4Vinci/Scrapling
-  pypdf      BSD 3-Clause   https://github.com/py-pdf/pypdf
-  Tkinter    Python Software Foundation License (Teil der Standardbibliothek)
-  SQLite     Public Domain  (Teil der Standardbibliothek)
-
-Optional, nicht mitgeliefert und nicht erforderlich:
-
-  Ollama     MIT            https://github.com/ollama/ollama
-             Wird nur angesprochen, wenn es lokal läuft. Das Programm
-             funktioniert vollständig ohne.
-
-Bewusst NICHT verwendet:
-
-  PyMuPDF    AGPL-3.0       Würde dieses Programm unter die AGPL zwingen.
-                            Für die PDF-Erzeugung genügt Chrome oder Edge
-                            im Headless-Modus.
